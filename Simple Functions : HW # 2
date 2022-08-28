@@ -1,0 +1,35 @@
+Problem 1a – greeting(): Define a function called greeting, which accepts one string argument,
+and returns a new string exactly equal to "Welcome, hargi!", where hargi stands for whatever was given as an input argument value.
+
+
+Problem 1b – greet.py: Write a stand-alone program that accepts one command line input value, 
+calls greeting that you previously defined with input argument set to what 
+whatever was in the command line input value, and finally prints out whatever greeting returned.In other words, your program should have behavior 
+identical to the one you wrote in the previous assignment. However, in order to receive credit here, you must use your library function, hwlib.
+
+Problem 2a – coin_change(): USD change in coins. Define a function coin_change that accepts a floating point dollars amount as argument, 
+and returns a tuple with four integer elements, which should be the number of quarters (25c), dimes (10c), nickels (5c), and cents (in this order).
+
+Problem 2b – fewest_coins(): Smallest number of coins in change [15 points] Define a function
+called fewest_coins that accepts a floating point dollars amount as argument, and returns an integer
+equal to the minimum number of coins required to give change in that amount
+
+Problem 3 – sort3(): Sort three numbers [15 points] Write a function called sort3 that accepts
+three integer arguments a, b, and c and returns a tuple with three elements, which should be the three
+input argument values but in increasing order.
+
+Problem 4 – convert_inputs(): Process variable-length user input [15 points] Write a function
+called convert_inputs that accepts a list of strings as an argument, and returns a new list (of the same
+length) containing the float conversion of each item in the input list. You can assume all items of the
+input list can be successfully converted into float. Finally, your function should not modify the input list
+in any way. For example, the function call convert_inputs(["1.0", "-3.1415", "1.5e3"]) should evaluate
+to [1.0, -3.1415, 1500.0].
+
+Problem 5 – keep_positive(): Fitering values [10 points] Write a function called keep_positive
+that accepts a list of numbers as an argument, and returns a new list containing only the positive§
+elements of the input list. You should not modify the input list in any way.
+
+
+
+
+
